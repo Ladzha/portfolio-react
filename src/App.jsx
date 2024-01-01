@@ -17,14 +17,24 @@ function App() {
       </Section>
       <Section sectionName ={"skills"} 
       title={"Skills"} 
-      subtitle ={"Some tools I've been working with recently"}> <SkillList/>
+      subtitle ={"Some tools I've been working with recently"}> <SkillsSection/>
       </Section>
-      {/* <About/>
-      <EducationSection/>
-      <WorkSection/>
-      <SkillsSection/>
-      <ProjectsSection/>
-      <Contact/> */}
+      <Section sectionName ={"education"} 
+      title={"Education"} 
+      subtitle ={"Some tools I've been working with recently"}> <EducationSection/>
+      </Section>
+      <Section sectionName ={"work"} 
+      title={"Work"} 
+      subtitle ={"My journey"}> <WorkSection/>
+      </Section>
+      <Section sectionName ={"portfolio"} 
+      title={"Portfolio"} 
+      subtitle ={"Here are a few projects"}> <ProjectsSection/>
+      </Section>
+      <Section sectionName ={"contact"} 
+      title={"Contact"} 
+      subtitle ={"Some tools I've been working with recently"}> <Contact/>
+      </Section>
     </div>
   );
 }

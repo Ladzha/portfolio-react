@@ -5,10 +5,15 @@ import {works} from '../ExperienceInfo.jsx'
 const WorkList = () => {
   return (
     <div>
-      {works.map((work, index)=>
-      <WorkCard work={work}/>
-      )}
-      
+      <h2>Work experience</h2>
+      {works.map((work)=>
+      <WorkCard 
+        key={work.id} 
+        title={work.name}
+        subtitle={work.place}
+        activities={work.activity}
+        year={work.year}/>
+      )}  
     </div>
   )
 }

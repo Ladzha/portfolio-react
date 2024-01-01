@@ -5,8 +5,12 @@ import {education} from '../ExperienceInfo.jsx'
 const EducationList = () => {
   return (
     <div>
-      {education.map((education, index)=>
-      <EducationCard education={education}/>
+      {education.map((education)=>
+      <EducationCard
+        key={education.id}
+        title={education.name}
+        subtitle={education.place}
+        year={education.year}/>
       )}
     </div>
   )

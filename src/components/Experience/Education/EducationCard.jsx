@@ -1,8 +1,12 @@
 import React from 'react'
 
-const EducationCard = ({education}) => {
+const EducationCard = ({title, subtitle, year}) => {
   return (
-    <div>{education}</div>
+    <div>
+      <h3 className='qualification-title'>{title}</h3>
+      <p className='qualification-subtitle'>{subtitle}</p>
+      <p className='year'>{year}</p>
+    </div>
   )
 }
 
