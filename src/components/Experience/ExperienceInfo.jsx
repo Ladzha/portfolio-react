@@ -2,22 +2,22 @@ export const education = [
   { id: 1, 
     name: "Full Stack Developer Developers Institute", 
     place: "TLV Coding Bootcamp, Israel", 
-    year: 2023}, 
+    year: '2023'}, 
 
   { id: 2, 
     name: "Game Developer", 
     place: "GeekBrains - educational platform, Moscow, Russia", 
-    year: 2022-2023}, 
+    year: '2022-2023'}, 
 
   { id: 3, 
     name: "Character Illustrator", 
     place: "Pixel-online school, Moscow, Russia", 
-    year: 2020},
+    year: '2020'},
 
   { id: 4, 
     name: "Master's Degree in Design", 
     place: "Samara State University of Architecture and Civil Engineering, Samara, Russia", 
-    year: 2004-2010},
+    year: '2004-2010'},
 ]
 
 export const works = [
@@ -26,7 +26,7 @@ export const works = [
     name: "Stock Illustrator", 
     place: "Freelance",
     activity: ["Created illustrations for both print materials and digital media, keeping up-to-date with industry trends."], 
-    year: 2012-2023
+    year: '2012-2023'
   },
   { 
     id: 2, 
@@ -36,7 +36,7 @@ export const works = [
       "Created game concepts, designed characters and levels for the indie game.",
     
       "Built interactive prototypes and applied animations using Unity."], 
-    year: 2018-2022
+    year: '2018-2022'
   },
   { 
     id: 3, 
@@ -46,7 +46,7 @@ export const works = [
       "Produced visually impactful designs for brochures, flyers, catalogs, packaging, and publications.",
     
       "Conducted market research and competitor analysis to inform design decisions."], 
-    year: 2017
+    year: '2017'
   },
   { 
     id: 4, 
@@ -56,7 +56,7 @@ export const works = [
       "Designed layouts for magazines, newsletters, and publications, focusing on readability and aesthetics.",
     
       "Adhered to brand guidelines and project specifications with meticulous attention to detail."], 
-    year: 2013-2016
+    year: '2013-2016'
   },
   { 
     id: 5, 
@@ -66,7 +66,7 @@ export const works = [
       "Created layouts and performed pre-press preparation for office and clinical documents.",
     
       "Ensured accurate color reproduction and proper formatting for printing."], 
-    year: 2013
+    year: '2013'
   },
   { 
     id: 6, 
@@ -74,7 +74,7 @@ export const works = [
     place: "'Perspektiva' - Training and Employment center",
     activity: [
       "Developed structured learning programs and educated students in the AutoCAD program.",], 
-    year: 2010-2011
+    year: '2010-2011'
   },
   ]
 

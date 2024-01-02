@@ -1,13 +1,13 @@
 import React from 'react'
 import WorkList from './WorkList'
 
-const WorkSection = () => {
+const WorkSection = ({title, icon}) => {
   return (
-    <section className='skills section' id="skills">
-      <h2 class="section-title">Skills</h2>
-       <span class="section-subtitle">Some tools I've been working with recently </span>
+    <div className='qualification-data' id="work">
+      <div className="qualification-button">
+      <i className='qualification-icon'>{icon}</i>{title}</div>
       <WorkList/>
-    </section>
+    </div>
   )
 }
 

@@ -1,11 +1,22 @@
 import React from 'react'
 import EducationList from './EducationList'
 
-const EducationSection = () => {
+const EducationSection = ({title, icon}) => {
   return (
-    <section>
-      <EducationList/>
-    </section>
+    <div className='qualification-data' id="education">  
+      
+      <div className='qualification-button'>
+        <span>
+        <i className='qualification-icon'>{icon}</i></span>
+        <span>{title}</span>
+      </div>
+
+      <div>
+        <EducationList/>
+      </div>
+
+
+    </div>
   )
 }
 

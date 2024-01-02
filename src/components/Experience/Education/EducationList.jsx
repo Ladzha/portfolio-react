@@ -4,7 +4,7 @@ import {education} from '../ExperienceInfo.jsx'
 
 const EducationList = () => {
   return (
-    <div>
+    <>
       {education.map((education)=>
       <EducationCard
         key={education.id}
@@ -12,7 +12,7 @@ const EducationList = () => {
         subtitle={education.place}
         year={education.year}/>
       )}
-    </div>
+    </>
   )
 }
 
