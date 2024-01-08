@@ -1,0 +1,18 @@
+.project-list{
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.project-card{
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.toolList{
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  background-color: lightcoral;
+}

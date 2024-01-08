@@ -6,8 +6,8 @@ const WorkCard = ({title, subtitle, activities, year}) => {
       <h3 className='qualification-title'>{title}</h3>
       <span className='qualification-subtitle bold-text'>{subtitle}</span>
       
-      {activities.map((activity)=>
-      <p className='qualification-subtitle'>{activity}</p>)}
+      {activities.map((activity, index)=>
+      <p key={index} className='qualification-subtitle'>{activity}</p>)}
 
       <div className="qualification-date">
         <span><i className='calendar-icon'><UilCalendarAlt/></i></span>

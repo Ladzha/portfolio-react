@@ -1,10 +1,17 @@
-import React from 'react'
+import React from 'react';
+import { UilWhatsapp } from '@iconscout/react-unicons';
+import { UilEnvelope } from '@iconscout/react-unicons';
+import { UilMapMarkerAlt } from '@iconscout/react-unicons';
+
 
 const Contact = () => {
   return (
     <div>
       Contacts
-      <p>Telefon</p>
+      <UilWhatsapp/>
+      <UilEnvelope/>
+      <UilMapMarkerAlt/>
+      <p></p>
 
     </div>
   )

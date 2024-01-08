@@ -1,20 +1,35 @@
 import React from 'react';
 import Skill from './Skill';
-import {skills} from '../ExperienceInfo.jsx';
-import {language} from '../ExperienceInfo.jsx';
+import { UilArrowDown } from '@iconscout/react-unicons'
 
-const SkillList = () => {
+
+const SkillList = ({title, icon, skillsList}) => {
+
+
   return (
-    <div>
-      {skills.map((skill)=>
-      <Skill
-      key={skill.id}
-      skill={skill.name}/>)}
-      {language.map((language)=>
-      <Skill
-      key={language.id}
-      language={language.language}/>)}
+    <div className='skills-content skills-open'>
+      
+      <div className="skills-header">
+        <div className="skills-icon">{icon}</div>
+        <div>
+          <h2 className="skills-title">{title}</h2>
+        </div>
+        <div className="skills-arrow"><UilArrowDown/></div>
+      </div>
+
+      <div className='skills-data'>
+
+      <div className='skills-list'>
+        {skillsList.map((skill, index)=>
+        <Skill
+        key={skill.id}
+        skill={skill.name}/>)}
+      </div>
+
+      </div>
+
     </div>
+
   )
 }
 

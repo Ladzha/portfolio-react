@@ -1,6 +1,6 @@
 import React from 'react'
 import EducationCard from './EducationCard'
-import {education} from '../ExperienceInfo.jsx'
+import {education} from '../ExperienceInfo.js'
 
 const EducationList = () => {
   return (

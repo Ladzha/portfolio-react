@@ -1,9 +1,11 @@
-import React from 'react'
+import { UilArrowRight } from '@iconscout/react-unicons';
+import './Project.css'
+
 
 
 const ProjectCard = ({title, description, image, tools, link}) => {
   return (
-    <div>
+    <div className='project-card'>
       <img 
       className="portfolio-img"
       src={image} 
@@ -12,11 +14,14 @@ const ProjectCard = ({title, description, image, tools, link}) => {
 
       <h3 className='portfolio-title'>{title}</h3>
       <p className='portfolio-description'>{description}</p>
+
+      <div className='toolList'>
       {tools.map((tool, index)=>
-      <p>{tool}</p>)}
-      <p>tools</p>
-      <a href={link} className="button button-flex button-small portfolio-button">Demo</a>
-      <i className='uil uil-arrow-right button-icon'></i>
+      <p key={index} className='tool'>{tool}</p>)}
+      </div>
+
+      <a href={link} className="button button-flex button-small portfolio-button">Demo <i className='button-icon'><UilArrowRight/></i></a>
+      
 
     </div>
   )

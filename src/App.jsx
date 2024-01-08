@@ -10,15 +10,15 @@ import Contact from './components/Home/Contact.jsx'
 function App() {
   return (
     <div className="App">
-      {/* <Navbar/> */}
+      <Navbar/>
 
-      {/* <Section sectionName ={"about"}> <About/></Section> */}
+      <Section sectionName ={"about"}> <About/></Section>
 
-      {/* <Section sectionName ={"skills"} 
+      <Section sectionName ={"skills"} 
       title={"Skills"} 
       subtitle ={"Some tools I've been working with recently"}> 
       <SkillsSection/>
-      </Section> */}
+      </Section>
 
       <Section sectionName ={"qualification"} 
       title={"Qualification"} 
@@ -26,7 +26,7 @@ function App() {
       <QualificationSection/>
       </Section>
 
-      {/* <Section sectionName ={"portfolio"} 
+      <Section sectionName ={"portfolio"} 
       title={"Portfolio"} 
       subtitle ={"Here are a few projects"}> 
       <ProjectsSection/>
@@ -36,7 +36,7 @@ function App() {
       title={"Contact"} 
       subtitle ={"Get in touch"}> 
       <Contact/>
-      </Section> */}
+      </Section>
 
     </div>
   );

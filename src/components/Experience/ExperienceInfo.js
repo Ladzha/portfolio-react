@@ -1,3 +1,7 @@
+import { UilSwatchbook } from '@iconscout/react-unicons';
+
+
+
 export const education = [
   { id: 1, 
     name: "Full Stack Developer Developers Institute", 
@@ -78,55 +82,68 @@ export const works = [
   },
   ]
 
-export const skills = [
+export const frontendTools = [
   {
-    id: 1, name: 'HTML', icon: ''
+    id: 1, name: 'HTML'
   },
   {
-    id: 2, name: 'CSS', icon: ''
+    id: 2, name: 'CSS'
   },
   {
-    id: 3, name: 'React.js', icon: ''
+    id: 3, name: 'React'
   },
   {
-    id: 4, name: 'Node.js', icon: ''
+    id: 4, name: 'JavaScript'
   },
   {
-    id: 5, name: 'SQL', icon: ''
+    id: 5, name: 'Chakra'
   },
   {
-    id: 6, name: 'Postman', icon: ''
+    id: 6, name: 'Tailwind CSS'
+  }
+]
+
+export const backendTools = [
+  {
+    id: 1, name: 'Node.js'
   },
   {
-    id: 7, name: 'GitHub', icon: ''
+    id: 2, name: 'SQL'
   },
   {
-    id: 8, name: 'Chakra', icon: ''
+    id: 3, name: 'Postman'
   },
   {
-    id: 9, name: 'Tailwind CSS', icon: ''
+    id: 4, name: 'GitHub'
+  },
+ 
+]
+
+export const designTools = [
+  {
+    id: 1, name: 'Illustrator'
   },
   {
-    id: 10, name: 'Illustrator', icon: ''
+    id: 2, name: 'Photoshop'
   },
   {
-    id: 11, name: 'Photoshop', icon: ''
+    id: 3, name: 'Figma'
   },
   {
-    id: 12, name: 'Figma', icon: ''
+    id: 4, name: 'Krita'
   },
   {
-    id: 13, name: 'Krita', icon: ''
+    id: 5, name: 'Piskel'
   },
   {
-    id: 14, name: 'Piskel', icon: ''
+    id: 6, name: 'Aseprite'
   },
   {
-    id: 15, name: 'Aseprite', icon: ''
-  },
+    id: 7, name: 'Inkscape'
+  }
 ]
 
 export const language = [
-  {id: 1, language: "English", level: "fluent"},
-  {id: 2, language: "Russian", level: "native"},
+  {id: 1, name: "English", level: "fluent"},
+  {id: 2, name: "Russian", level: "native"},
 ]

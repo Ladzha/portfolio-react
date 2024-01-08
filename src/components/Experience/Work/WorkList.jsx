@@ -1,6 +1,6 @@
 import React from 'react'
 import WorkCard from './WorkCard'
-import {works} from '../ExperienceInfo.jsx'
+import {works} from '../ExperienceInfo.js'
 
 const WorkList = () => {
   return (
