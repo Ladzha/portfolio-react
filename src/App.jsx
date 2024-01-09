@@ -1,6 +1,6 @@
 import './App.css';
-import Navbar from './components/Navbar.jsx';
 import Section from './components/Section.jsx';
+import Navbar from './components/Home/Navbar.jsx';
 import About from './components/Home/About.jsx';
 import QualificationSection from './components/Experience/QualificationSection.jsx';
 import SkillsSection from './components/Experience/Skills/SkillsSection.jsx';
