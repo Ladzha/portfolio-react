@@ -2,7 +2,7 @@
   display: grid;
   gap: 1rem;
   grid-template-columns: 0.5fr 7fr 3fr;
-  padding-top: 7rem;
+  padding-top: 8rem;
   align-items: center;
 }
 
@@ -39,8 +39,8 @@
 }
 
 .home-photo-img{
-  width: clamp(150px 50% 230px);
-  height: clamp(150px 50% 230px);
+  /* width: min(150px 230px); */
+  /* height: min(150px 230px); */
   border-radius: 50%
 }
 

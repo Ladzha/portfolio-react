@@ -8,7 +8,8 @@ const SkillList = ({title, icon, skillsList}) => {
 
 
   const showSkills=()=>{
-    setSkillSection(true)
+    setSkillSection((prev)=>!prev)
+    // const classSet = 'skills-open'
   }
 
   return (
@@ -23,13 +24,19 @@ const SkillList = ({title, icon, skillsList}) => {
       </div>
 
       <div className='skills-data'>
+        {
+          skillSection?
+          <div className='skills-list'>
+          {skillsList.map((skill, index)=>
+          <Skill
+          key={skill.id}
+          skill={skill.name}
+          icon={skill.icon}/>)}
+        </div>
+        : <></>
+        }
 
-      <div className='skills-list'>
-        {skillsList.map((skill, index)=>
-        <Skill
-        key={skill.id}
-        skill={skill.name}/>)}
-      </div>
+
 
       </div>
 

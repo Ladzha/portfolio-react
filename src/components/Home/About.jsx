@@ -1,10 +1,6 @@
 import React from 'react'
 import './Home.css'
-import { UilLinkedinAlt } from '@iconscout/react-unicons';
-import { UilGithubAlt } from '@iconscout/react-unicons';
-import { UilEnvelope } from '@iconscout/react-unicons';
-import { UilImport } from '@iconscout/react-unicons';
-import { UilMessage } from '@iconscout/react-unicons';
+import { UilLinkedinAlt, UilGithubAlt, UilEnvelope, UilImport, UilMessage } from '@iconscout/react-unicons';
 
 const About = () => {
   return (

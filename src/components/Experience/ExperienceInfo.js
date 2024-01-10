@@ -84,16 +84,16 @@ export const works = [
 
 export const frontendTools = [
   {
-    id: 1, name: 'HTML'
+    id: 1, name: 'HTML', icon:'img/html.svg'
   },
   {
-    id: 2, name: 'CSS'
+    id: 2, name: 'CSS', icon:'img/css.svg'
   },
   {
-    id: 3, name: 'React'
+    id: 3, name: 'React', icon:'img/react.svg'
   },
   {
-    id: 4, name: 'JavaScript'
+    id: 4, name: 'JavaScript', icon:'img/javascript.svg'
   },
   {
     id: 5, name: 'Chakra'

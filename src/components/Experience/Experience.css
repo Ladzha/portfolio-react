@@ -1,0 +1,13 @@
+.qualification-button-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+  margin-bottom: 2rem;
+}
+
+.skill-icon{
+  width: 1.5rem;
+  height: 1.5rem;
+}

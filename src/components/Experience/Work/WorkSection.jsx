@@ -1,11 +1,9 @@
 import React from 'react'
 import WorkList from './WorkList'
 
-const WorkSection = ({title, icon}) => {
+const WorkSection = () => {
   return (
     <div className='qualification-data' id="work">
-      <div className="qualification-button">
-      <i className='qualification-icon'>{icon}</i>{title}</div>
       <WorkList/>
     </div>
   )

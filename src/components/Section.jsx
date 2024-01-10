@@ -8,7 +8,7 @@ const Section = ({children, sectionName, title, subtitle}) => {
       <span className="section-subtitle">{subtitle}</span>
 
       <div className='container'>{children}</div>
-
+      
     </section>
   )
 }

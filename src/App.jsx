@@ -6,6 +6,7 @@ import QualificationSection from './components/Experience/QualificationSection.j
 import SkillsSection from './components/Experience/Skills/SkillsSection.jsx';
 import ProjectsSection  from './components/Projects/ProjectsSection.jsx';
 import Contact from './components/Home/Contact.jsx'
+import Footer from './components/Home/Footer.jsx';
 
 function App() {
   return (
@@ -37,6 +38,8 @@ function App() {
       subtitle ={"Get in touch"}> 
       <Contact/>
       </Section>
+
+      <Footer/>
 
     </div>
   );

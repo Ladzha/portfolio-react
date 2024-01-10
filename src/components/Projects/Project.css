@@ -1,6 +1,37 @@
+.portfolio-container{
+  overflow: initial;
+}
+
+.portfolio-content{
+  padding: 0 1.5rem;
+}
+
+.portfolio-img{
+  width: 100%;
+  border-radius: .5rem;
+  justify-self: center;
+}
+
+.portfolio-title{
+  font-size: var(--h3-font-size);
+  margin-bottom: var(--mb-0-5);
+}
+
+.portfolio-description{
+  margin-bottom: var(--mb-1);
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.portfolio-button:hover .button-icon{
+  transform: translateX(0.25rem);
+}
+
 .project-list{
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   gap: 1rem;
 }
 
@@ -11,12 +42,19 @@
   padding: 1rem;
   border-radius: 1rem;
   box-shadow: 1px;
-  background-color: antiquewhite;
+  border: 2px solid rgba(0,0,0,0.2);
 }
 
 .toolList{
   display: flex;
   flex-direction: row;
   gap: 1rem;
-  background-color: lightcoral;
 }
+
+.tool{
+  padding: 0.5rem 1rem;
+  border: 2px solid rgba(0,0,0,0.2);
+  border-radius: 2rem;
+}
+
+
