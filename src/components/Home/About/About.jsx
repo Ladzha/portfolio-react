@@ -1,25 +1,11 @@
 import React from 'react'
-import './Home.css'
-import { UilLinkedinAlt, UilGithubAlt, UilEnvelope, UilImport, UilMessage } from '@iconscout/react-unicons';
+import './About.css'
+import { UilLinkedinAlt, UilGithubAlt, UilEnvelope, UilImport, UilMessage, UilAt } from '@iconscout/react-unicons';
 
 const About = () => {
   return (
 
     <div className='home-container' id='home'>
-
-      <div className="home-social">
-        <a href="https://www.linkedin.com/in/alla-nudelman/" target='_blank' className="home-social-icon">
-          <i className=""><UilLinkedinAlt/></i>
-        </a>
-
-        <a href="https://github.com/Ladzha" target='_blank' className="home-social-icon">
-          <i className=""><UilGithubAlt/></i>
-        </a>
-
-        <a href="mailto:allanudelman@gmail.com?subject=Your%20Subject&body=Your%20Message" target='_blank' className="home-social-icon">
-          <i className=""><UilEnvelope/></i>
-        </a>
-      </div>
 
       <div className="home-img">
         <img src="img/profile-foto-bw.png" alt="profile-foto-png" className="home-photo-img"/>
@@ -31,6 +17,20 @@ const About = () => {
         <p className="home-description">
           With a background in graphic design and strong passion for coding, focused on creating attractive and user-friendly web applications. Skilled in creative problem-solving and meticulous attention to detail, I bring a unique combination of design and coding expertise.
         </p>
+
+        <div className="home-social">
+        <a href="https://www.linkedin.com/in/alla-nudelman/" target='_blank' className="home-social-icon">
+          <i className=""><UilLinkedinAlt/></i>
+        </a>
+
+        <a href="https://github.com/Ladzha" target='_blank' className="home-social-icon">
+          <i className=""><UilGithubAlt/></i>
+        </a>
+
+        <a href="mailto:allanudelman@gmail.com?subject=Your%20Subject&body=Your%20Message" target='_blank' className="home-social-icon">
+          <i className=""><UilAt/></i>
+        </a>
+      </div>
 
         <div className="button-container">
           <a href="#contact" className='button button-flex'>Contact me<i className="button-icon"><UilMessage/> </i></a>

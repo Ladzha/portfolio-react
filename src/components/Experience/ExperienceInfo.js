@@ -121,16 +121,16 @@ export const backendTools = [
 
 export const designTools = [
   {
-    id: 1, name: 'Illustrator'
+    id: 1, name: 'Illustrator', icon:'img/ai.svg'
   },
   {
-    id: 2, name: 'Photoshop'
+    id: 2, name: 'Photoshop', icon:'img/ps.svg'
   },
   {
-    id: 3, name: 'Figma'
+    id: 3, name: 'Figma', icon: 'img/javascript.svg'
   },
   {
-    id: 4, name: 'Krita'
+    id: 4, name: 'Krita', icon: 'img/javascript.svg'
   },
   {
     id: 5, name: 'Piskel'

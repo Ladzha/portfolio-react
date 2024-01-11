@@ -1,16 +1,16 @@
 .home-container{
   display: grid;
   gap: 1rem;
-  grid-template-columns: 0.5fr 7fr 3fr;
+  grid-template-columns: 7fr 3fr;
   padding-top: 8rem;
   align-items: center;
 }
 
 
 .home-social{
-  display: grid;
-  grid-template-columns: max-content;
-  row-gap: 1rem;
+  display: flex;
+  justify-content: flex-start;
+  gap: 1rem;
 }
 
 .home-social-icon{
