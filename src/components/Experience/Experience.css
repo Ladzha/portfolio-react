@@ -11,14 +11,14 @@
 .qualification-container{
   display: flex;
   justify-content: space-evenly;
-  gap: var(--mb-2);
-  margin-bottom: var(--mb-2);
+  gap: 2rem;
+  margin-bottom: 2rem;
 } 
 
 .qualification-tabs{
   display: flex;
   justify-content: space-evenly;
-  margin-bottom: var(--mb-2);
+  margin-bottom: 2rem;
 }
 
 .qualification-button{
@@ -37,25 +37,17 @@
 
 .qualification-icon{
   font-size: 1.7rem;
-  margin-right: var(--mb-0-25);
+  margin-right: 0.25rem;
 }
 
-
-
 .qualification-data{
-  /* display: flex; */
   width: 50%;
   gap:2rem;
-  /* display: grid; */
-  /* grid-template-columns: 1fr 11fr; */
-  /* grid-template-columns: 1fr max-content 1fr;
-  column-gap: 1.5rem; */
-  /* margin: 1rem; */
 }
 
 .qualification-title{
   font-size: var(--normal-font-size);
-  margin-bottom: var(--mb-0-5);
+  margin-bottom: 0.5rem;
   /* font-weight: var(--font-medium); */
 }
 
@@ -63,7 +55,7 @@
   display: inline-block;
   font-size: var(--small-font-size);
   font-style: italic;
-  margin-bottom: var(--mb-1);
+  margin-bottom: 1rem;
 }
 
 .qualification-date{
@@ -73,8 +65,15 @@
   gap: 0.75rem;
   font-size: var(--smaller-font-size);
   color: var(--text-color-light);
-  margin-bottom: var(--mb-1);
+  margin-bottom: 1rem;
 }
+
+.calendar-icon{
+  width: 1rem;
+  height: 1rem;
+}
+
+
 
 /* .qualification-calendar{
   font-size: var(--smaller-font-size);
@@ -86,35 +85,24 @@
   justify-content: center;
 } */
 
-.qualification-rounder{
+/* .qualification-rounder{
   display: inline-block;
   width: 12px;
   height: 12px;
   margin-left: -6px;
-  background-color: var(--first-color);
   border-radius: 50%;
-}
+} */
 
-.qualification-line{
+/* .qualification-line{
   display: block;
   width: 1px;
   height: 100%;
   margin-top: -5px;
   background-color: var(--first-color);
   transform: translate(6px -7px);
-}
+} */
 
 
-
-.qualification [data-content]{
-  display: none;
-}
-
-.qualification-active[data-content]{
-  display: block;
-}
-
-.qualification-button.qualification-active{
+.tab-active{
   color: var(--first-color);
-
 }

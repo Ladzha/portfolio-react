@@ -9,9 +9,10 @@ import './Experience.css'
 const QualificationSection = () => {
 
   const [dataSection, setDataSection] = useState(<WorkSection/>)
+  const [tab, setTab] = useState('education')
 
   const handleClick=(type)=>{
-    setDataSection(type)
+    setTab(type)
   }
 
 
@@ -19,12 +20,12 @@ const QualificationSection = () => {
     <div className='' id='qualification'>
       
       <div className='qualification-button-container'>
-        <ExperienceButton title={'Education'} icon={<UilBookAlt/>} onClick={()=>handleClick(<EducationSection/>)}/>
-        <ExperienceButton title={'Work experience'} icon={<UilBagAlt/>} onClick={()=>handleClick(<WorkSection/>)}/>
+        <ExperienceButton isActive={tab==='education'} title={'Education'} icon={<UilBookAlt/>} onClick={()=>handleClick('education')}/>
+        <ExperienceButton  isActive={tab==='work'} title={'Work experience'} icon={<UilBagAlt/>} onClick={()=>handleClick('work')}/>
       </div>
 
       <div className='qualification-container'>
-        {dataSection}
+        {tab==='education' ? <EducationSection/> : <WorkSection/> }
       </div>
 
     </div>

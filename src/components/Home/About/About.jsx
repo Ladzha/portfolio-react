@@ -18,24 +18,26 @@ const About = () => {
           With a background in graphic design and strong passion for coding, focused on creating attractive and user-friendly web applications. Skilled in creative problem-solving and meticulous attention to detail, I bring a unique combination of design and coding expertise.
         </p>
 
-        <div className="home-social">
-        <a href="https://www.linkedin.com/in/alla-nudelman/" target='_blank' className="home-social-icon">
-          <i className=""><UilLinkedinAlt/></i>
-        </a>
 
-        <a href="https://github.com/Ladzha" target='_blank' className="home-social-icon">
-          <i className=""><UilGithubAlt/></i>
-        </a>
-
-        <a href="mailto:allanudelman@gmail.com?subject=Your%20Subject&body=Your%20Message" target='_blank' className="home-social-icon">
-          <i className=""><UilAt/></i>
-        </a>
-      </div>
 
         <div className="button-container">
-          <a href="#contact" className='button button-flex'>Contact me<i className="button-icon"><UilMessage/> </i></a>
-          <a download="" href="pdf/Alla_Nudelman_CV.pdf" className='button button-flex'>Download CV <i className="button-icon"><UilImport/></i></a> 
+          <a href="#contact" className='button button-flex'>Contact me<i className="button-icon"><UilMessage size="20"/> </i></a>
+          <a download="" href="pdf/Alla_Nudelman_CV.pdf" className='button button-flex'>Download CV <i className="button-icon"><UilImport size="20"/></i></a> 
         </div> 
+
+        {/* <div className="home-social">
+          <a href="https://www.linkedin.com/in/alla-nudelman/" target='_blank' className="home-social-icon">
+            <i className=""><UilLinkedinAlt/></i>
+          </a>
+
+          <a href="https://github.com/Ladzha" target='_blank' className="home-social-icon">
+            <i className=""><UilGithubAlt/></i>
+          </a>
+
+          <a href="mailto:allanudelman@gmail.com?subject=Your%20Subject&body=Your%20Message" target='_blank' className="home-social-icon">
+            <i className=""><UilAt/></i>
+          </a>
+        </div> */}
 
       </div>
 

@@ -39,6 +39,11 @@ function App() {
       <Contact/>
       </Section>
 
+      <a href="#home" class="scrollup" id="scroll-up">
+        <i class="uil uil-arrow-up scrollup-icon"></i>
+      </a>
+
+
       <Footer/>
 
     </div>

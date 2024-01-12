@@ -14,15 +14,20 @@
 
 .portfolio-title{
   font-size: var(--h3-font-size);
-  margin-bottom: var(--mb-0-5);
+  margin-bottom: 0.5rem;
 }
 
 .portfolio-description{
-  margin-bottom: var(--mb-1);
+  margin-bottom: 1rem;
   display: -webkit-box;
   -webkit-line-clamp: 4;
   -webkit-box-orient: vertical;
   overflow: hidden;
+}
+
+.button-set{
+  display: flex;
+  gap: 1rem;
 }
 
 .portfolio-button:hover .button-icon{
