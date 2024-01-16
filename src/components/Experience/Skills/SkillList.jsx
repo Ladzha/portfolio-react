@@ -18,7 +18,7 @@ const SkillList = ({title, icon, skillsList}) => {
       <div className="skills-header">
         <div className="skills-icon">{icon}</div>
         <div>
-          <h2 className="skills-title">{title}</h2>
+          <h3 className="skills-title">{title}</h3>
         </div>
         <button className="skills-arrow"><UilArrowDown onClick={showSkills}/></button>
       </div>

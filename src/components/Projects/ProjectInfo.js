@@ -12,7 +12,7 @@ export const projects = [
     projectName: "Basic Todo list",
     description: "I developed a straightforward yet functional mini-project—a basic todo list. With a minimalistic design, the todo list allows users to easily add tasks, mark them as completed, and remove them as needed. It's a practical tool for organizing daily tasks and getting things done efficiently.",
     imageLink: "img/todo-1.png",
-    tools: ['React.js', 'CSS'],
+    tools: ['React', 'CSS'],
     link: "https://ladzha.github.io/todo-list/",
   },
   {
@@ -20,7 +20,7 @@ export const projects = [
     projectName: "Random Quote Generator",
     description: "A responsive React-based web app that provides daily inspirational quotes and their authors. Simply click for a new quote, anytime, anywhere. A straightforward and accessible source of wisdom.",
     imageLink: "img/quote-1.png",
-    tools: ['React.js','CSS'],
+    tools: ['React','CSS'],
     link: "https://ladzha.github.io/quotes-generator",
   }, 
 
@@ -37,7 +37,7 @@ export const projects = [
     projectName: "Lula - learning platform",
     description: "Lula is a web platform that focuses on improving language skills through listening and speaking. It provides authentic conversations with diverse accents and vocabulary, enhancing comprehension and communication abilities. Users can explore various recordings, leaving comments, and contributing their own, making language learning interactive and effective.",
     imageLink: "img/lula-1.png",
-    tools: ['React.js','Node.js'],
+    tools: ['React','Node'],
     link: "https://lula-platform.onrender.com",
   }, 
 
@@ -46,8 +46,17 @@ export const projects = [
     projectName: "Memory game",
     description: "For different levels. Random set each time.",
     imageLink: "img/memory.png",
-    tools: ['React.js', 'CSS'],
+    tools: ['React', 'CSS'],
     link: "https://ladzha.github.io/memory-game/",
+  }, 
+
+  {
+    id: 7, 
+    projectName: "Tic Tac Toe",
+    description: "Well known game",
+    imageLink: "img/tictac.png",
+    tools: ['React', 'CSS'],
+    link: "https://ladzha.github.io/tictactoe/",
   }, 
 
 

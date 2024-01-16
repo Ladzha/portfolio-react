@@ -19,11 +19,13 @@ const About = () => {
         </p>
 
 
-
         <div className="button-container">
-          <a href="#contact" className='button button-flex'>Contact me<i className="button-icon"><UilMessage size="20"/> </i></a>
-          <a download="" href="pdf/Alla_Nudelman_CV.pdf" className='button button-flex'>Download CV <i className="button-icon"><UilImport size="20"/></i></a> 
+          <a href="#contact" className='button'>Contact me
+          <i className="uil uil-message button-icon"></i></a>
+          <a download="" href="pdf/Alla_Nudelman_CV.pdf" className='button'>Download CV
+          <i className="uil uil-file-download button-icon"></i></a> 
         </div> 
+
 
         {/* <div className="home-social">
           <a href="https://www.linkedin.com/in/alla-nudelman/" target='_blank' className="home-social-icon">

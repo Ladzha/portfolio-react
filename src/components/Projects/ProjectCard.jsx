@@ -20,7 +20,7 @@ const ProjectCard = ({title, description, image, tools, link}) => {
       <p key={index} className='tool'>{tool}</p>)}
       </div>
 
-      <a href={link} className="button button-flex button-small portfolio-button">Demo <i className='button-icon'><UilArrowRight/></i></a>
+      <a href={link} className="button">Demo <i className='button-icon'><UilArrowRight/></i></a>
       
 
     </div>

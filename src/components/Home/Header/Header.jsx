@@ -13,7 +13,7 @@ const Header = () => {
 
       <div className="nav-toggle" id="nav-toggle">
         <i className=""><UilApps/></i>
-      </div>
+      </div> 
 
       </nav>
       

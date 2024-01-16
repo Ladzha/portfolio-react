@@ -7,11 +7,14 @@
 }
 
 .skills-content{
-
+  border: 2px solid rgba(0,0,0,0.2);
+  border-radius: 2rem;
+  width: 30%;
 }
 
 .skills-title{
-  font-size: var(--normal-font-size);
+  font-size: var(--h3-font-size);
+  color:red;
 }
 
 .skills-list{
@@ -36,9 +39,11 @@
   flex-direction: row;
   align-items: center;
   gap:0.5rem;
-  padding: 0.5rem 1rem;
-  border: 2px solid rgba(0,0,0,0.2);
-  border-radius: 2rem;
+  font-weight: 500;
+
+  /* padding: 0.5rem 1rem; */
+  /* border: 2px solid rgba(0,0,0,0.2);
+  border-radius: 2rem; */
 }  
 
 .skills-icon,
