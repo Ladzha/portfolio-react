@@ -1,17 +1,14 @@
-import { UilCalendarAlt } from '@iconscout/react-unicons';
-
 const WorkCard = ({title, subtitle, activities, year}) => {
   return (
     <div>
       <h3 className='qualification-title'>{title}</h3>
-      <span className='qualification-subtitle bold-text'>{subtitle}</span>
+      <p className='qualification-subtitle bold-text'>{subtitle}</p>
       
       {activities.map((activity, index)=>
-      <p key={index} className='qualification-subtitle'>{activity}</p>)}
+      <p key={index} className='qualification-detail'> <span className="circle"></span>{activity}</p>)}
 
       <div className="qualification-date">
-        <span><i className='calendar-icon'><UilCalendarAlt/></i></span>
-        
+        <span><i className='uil uil-calendar-alt calendar-icon'></i></span>
         <span className='year'>{year}</span>
       </div>  
 

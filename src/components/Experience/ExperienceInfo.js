@@ -1,26 +1,26 @@
-import { UilSwatchbook } from '@iconscout/react-unicons';
-
-
-
 export const education = [
   { id: 1, 
-    name: "Full Stack Developer Developers Institute", 
-    place: "TLV Coding Bootcamp, Israel", 
+    name: "Full Stack Developer", 
+    place: "Coding Bootcamp, Developers Institute", 
+    country: "Tel Aviv, Israel",
     year: '2023'}, 
 
   { id: 2, 
     name: "Game Developer", 
-    place: "GeekBrains - educational platform, Moscow, Russia", 
+    place: "GeekBrains - educational platform", 
+    country: "Moscow, Russia",
     year: '2022-2023'}, 
 
   { id: 3, 
     name: "Character Illustrator", 
-    place: "Pixel-online school, Moscow, Russia", 
+    place: "Pixel-online school",
+    country: "Moscow, Russia",
     year: '2020'},
 
   { id: 4, 
     name: "Master's Degree in Design", 
-    place: "Samara State University of Architecture and Civil Engineering, Samara, Russia", 
+    place: "Samara State University of Architecture and Civil Engineering", 
+    country: "Samara, Russia",
     year: '2004-2010'},
 ]
 
@@ -29,7 +29,14 @@ export const works = [
     id: 1, 
     name: "Stock Illustrator", 
     place: "Freelance",
-    activity: ["Created illustrations for both print materials and digital media, keeping up-to-date with industry trends."], 
+    activity: 
+    [
+      "Created illustrations for both print materials and digital media, keeping up-to-date with industry trends.", 
+
+      "Conducted market analysis and trends research.", 
+
+      "Achieved significant sales success, exceeding 30k on various platforms." 
+    ], 
     year: '2012-2023'
   },
   { 
@@ -49,7 +56,12 @@ export const works = [
     activity: [
       "Produced visually impactful designs for brochures, flyers, catalogs, packaging, and publications.",
     
-      "Conducted market research and competitor analysis to inform design decisions."], 
+      "Conducted market research and competitor analysis to inform design decisions.",
+
+      "Incorporated client feedback to ensure high satisfaction.",
+
+      "Managed multiple projects, effectively prioritizing tasks and meeting deadlines."
+    ], 
     year: '2017'
   },
   { 
@@ -58,8 +70,11 @@ export const works = [
     place: "GeneralLine Creative Agency",
     activity: [
       "Designed layouts for magazines, newsletters, and publications, focusing on readability and aesthetics.",
+
+      "Collaborated closely with clients and teams to understand project requirements and deliver successful designs.",
     
-      "Adhered to brand guidelines and project specifications with meticulous attention to detail."], 
+      "Adhered to brand guidelines and project specifications with meticulous attention to detail."
+    ], 
     year: '2013-2016'
   },
   { 
@@ -69,7 +84,9 @@ export const works = [
     activity: [
       "Created layouts and performed pre-press preparation for office and clinical documents.",
     
-      "Ensured accurate color reproduction and proper formatting for printing."], 
+      "Ensured accurate color reproduction and proper formatting for printing.",
+
+      "Maintained high-quality output through keen attention to detail."], 
     year: '2013'
   },
   { 
@@ -105,7 +122,7 @@ export const frontendTools = [
 
 export const backendTools = [
   {
-    id: 1, name: 'Node.js'
+    id: 1, name: 'Node'
   },
   {
     id: 2, name: 'SQL'

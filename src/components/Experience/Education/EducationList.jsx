@@ -10,6 +10,7 @@ const EducationList = () => {
         key={education.id}
         title={education.name}
         subtitle={education.place}
+        country={education.country}
         year={education.year}/>
       )}
     </>

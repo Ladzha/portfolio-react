@@ -8,12 +8,13 @@ const Header = () => {
     <header className='header' id='header'>
 
       <nav className='nav container'>
-      <a href="#" className="nav-logo"><span className='bold-text'>AN.</span></a>
-      <Navbar/>  
 
-      <div className="nav-toggle" id="nav-toggle">
-        <i className=""><UilApps/></i>
-      </div> 
+        <a href="#" className="nav-logo"><span>AN.</span></a>
+        <Navbar/>  
+
+        <div className="nav-toggle" id="nav-toggle">
+          <i class="uil uil-apps"></i>
+        </div> 
 
       </nav>
       

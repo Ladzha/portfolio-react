@@ -38,8 +38,8 @@
 }
 
 .home-photo-img{
-  /* width: min(150px 230px); */
-  /* height: min(150px 230px); */
+  width: min(150px 230px);
+  height: min(150px 230px);
   border-radius: 50%
 }
 

@@ -1,6 +1,6 @@
 const ExperienceButton = ({title, icon, isActive, onClick}) => {
   return (
-    <button className={isActive ? 'qualification-button tab-active' : 'qualification-button' } onClick={onClick}>
+    <button className={isActive ? 'qualification-button active-link' : 'qualification-button' } onClick={onClick}>
       <span> <i className='qualification-icon'>{icon}</i></span>
       <span>{title}</span>
     </button>
