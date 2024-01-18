@@ -2,46 +2,42 @@ import React from 'react';
 import { BsTelegram } from "react-icons/bs";
 import { FaWhatsappSquare } from "react-icons/fa";
 import { UilWhatsapp } from '@iconscout/react-unicons';
+import { IoLogoWhatsapp } from "react-icons/io";
+import { PiTelegramLogo } from "react-icons/pi";
 
 
 const ContactBlock = () => {
-  return (
-    <div class="contact-container container grid">
-      <div>
+  return ( 
+    <div className="contact-block">
         
-        <div class="contact-information">
-          <i class="contact-icon"><UilWhatsapp/></i>
-          <div>
-            <h3 class="contact-title">WhatsApp</h3>
-            <span class="contact-subtitle">+7927 731-47-05</span>
-          </div>
+      <div className="contact-information">
+        <i className="uil uil-whatsapp contact-icon"></i>
+        <div>
+          <h3 className="contact-title">WhatsApp</h3>
+          <p className="contact-subtitle">+7927 731-47-05</p>
+          <a href='' className="contact-button">Write me<i className='uil uil-arrow-right button-icon'></i></a>
         </div>
-
-        <div class="contact-information">
-          <i class="contact-icon"><BsTelegram/></i>
-          <div>
-            <h3 class="contact-title">Telegram</h3>
-            <span class="contact-subtitle">+7927 731-47-05</span>
-          </div>
-        </div>
-
-        <div class="contact-information">
-          <i class="uil uil-envelope contact-icon"></i>
-          <div>
-            <h3 class="contact-title">Email</h3>
-            <span class="contact-subtitle">allanudelman@gmail.com</span>
-          </div>
-        </div>
-
-        {/* <div class="contact-information">
-          <i class="uil uil-map-marker contact-icon"></i>
-          <div>
-            <h3 class="contact-title">Location</h3>
-            <span class="contact-subtitle">Israel</span>
-          </div>
-        </div> */}
-
       </div>
+
+      <div className="contact-information">
+        <PiTelegramLogo size={30} color="hsl(265, 0%, 20%)"/>
+        <div>
+          <h3 className="contact-title">Telegram</h3>
+          <p className="contact-subtitle">@allanud</p>
+          <a href='' className="contact-button">Write me<i className='uil uil-arrow-right button-icon'></i></a> 
+          </div>
+        </div>
+
+
+        <div className="contact-information">
+          <i className="uil uil-envelopes contact-icon"></i>
+          <div>
+            <h3 className="contact-title">Email</h3>
+            <p className="contact-subtitle">allanudelman@gmail.com</p>
+            <a href='' className="contact-button">Write me<i className='uil uil-arrow-right button-icon'></i></a>
+          </div>
+        </div>
+
     </div>
   )
 }

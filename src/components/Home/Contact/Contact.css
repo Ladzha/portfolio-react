@@ -3,23 +3,38 @@
 .contact-container{
   display: flex;
   flex-direction: row;
-  row-gap: 3rem;
+  justify-content: center;
+  gap: 4rem;
+  background-color: antiquewhite;
+}
+
+.contact-block{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+  background-color: red;
 }
 
 .contact-information{
   display: flex;
-  margin-bottom: 2rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 1rem;
+  border-radius: 1.5rem;
+  background-color: white;
 }
 
 .contact-icon{
   font-size: 1.7rem;
-  color: var(--first-color);
-  margin-right: 0.75rem;
+  color: var(--title-color);
 }
 
 .contact-title{
-  font-size: var(--h3-font-size);
-  font-weight: var(--font-medium);
+  font-size: var(--normal-font-size);
+  font-weight: 500;
 }
 
 .contact-subtitle{
@@ -28,22 +43,38 @@
 }
 
 .contact-content{
-  /* background-color: rebeccapurple; */
+  background-color: white;
   padding: .75rem 1rem .25rem;
 }
 
 .contact-label{
   font-size: var(--small-font-size);
   color: var(--text-color);
+  color: blue;
+}
+
+.contact-button{
+  display: inline-flex;
+  align-items: center;
+  padding-top: 1rem;
+  padding-left: 0.75rem;
+  color:var(--title-color);
+  font-size: var(--small-font-size);
+  text-align: center;
+}
+
+.contact-button:hover{
+  color: var(--text-color);
 }
 
 .contact-input{
   width: 100%;
-  background-color: var(--input-color);
+  background-color: red;
   color: var(--text-color);
   font-family: var(--body-font);
   font-size: var(--normal-font-size);
   border: none;
+  border-radius: 2rem;
   outline: none;
   padding: 0.25rem 0.5rem 0.25rem 0.5rem;
 }

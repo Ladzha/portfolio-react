@@ -10,7 +10,7 @@
 }
 
 .nav{
-  max-width: 900px;
+  max-width: 950px;
   height: var(--header-height);
   display: flex;
   justify-content: space-between;
